@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mensaje-descuentos{
+    background-color: #1CD1B0;
+    height:30px;
+    padding-left: 90px;
+    padding-top: 4px;
+    font-size: 15px;
+}
+
+.mensaje-descuentos h3 {
+    font-weight: 400;
+}
+
+header {
+    background-color: #00669F;
+    height: 100px;
+    box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 400;
+    padding: 15px 0 0 90px;
+}
+
+
+/* =======================main ===================*/
+
+main {
+    position: relative;
+    padding: 100px 60px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+
+main .items {
+    background-color: #F3F3F3;
+    width: 430px;
+    height: 750px;
+    margin: 20px;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    text-align: center;
+    left: 10px;
+    font-size: 1.4rem;
+}
+
+main .items img[alt="logo corazón"] {
+    position: absolute;
+    width: 40px;
+    top: 20px;
+    left: 30px
+}
+
+main .items img[alt="fondo"] {
+    width: 100%;
+
+}
+
+main .items img[alt="batman foto de perfil"], main .items img[alt="harley foto de perfil"]{
+    position: relative;
+    bottom: 70px;
+    border-radius: 50%;
+    width: 160px;
+    margin-top: -20px ;
+}
+
+
+main .items h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: -60px;
+}
+
+main .items p {
+    text-align: left;
+    margin: 20px 30px 20px;
+}
+
+main .items button {
+    width: 160px;
+    height: 50px;
+    background-color: #00669F;
+    border: none;
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+
+}
+
+main  .item-dos {
+    position: absolute;
+    left: 35%;
+    bottom: 100px;
+}
+
+main  .item-tres {
+    position: absolute;
+    left: 65.5%;
+    bottom: 100px;
+}
+
+/* -========================footer===================0 */
+
+
+footer {
+    margin-top: 100px;
+    background-color: #00669F;
+    color: white;
+    height: 60px;
+    font-size: 1.5rem;
+    padding-top:19px;
+    padding-left: 50px;
+}
